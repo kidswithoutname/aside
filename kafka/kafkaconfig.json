@@ -1,0 +1,7 @@
+{
+    "broker": "3.121.234.49:9092",
+    "schemaRegistryUrl": "http://3.121.234.49:8081",
+    "topic": "videocap10",
+    "camvalue": 0,
+    "groupId": "groupid"
+}
