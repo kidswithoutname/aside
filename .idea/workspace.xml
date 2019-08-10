@@ -1,410 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb3baa0c-0d43-40d9-84e4-1e77b5a6f83d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Navigation/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-05-31 20-24-23_695603/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-17-37_869063/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-29-22_885630/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-29-22_885630/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 20-29-22_885630/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-01-59_036244/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-42-30_739589/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-42-30_739589/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-42-30_739589/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-42-30_739589/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-43-49_327590/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-46-54_111490/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-46-54_111490/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-46-54_111490/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-46-54_111490/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-07 21-46-54_111490/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-21-12_797508/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-21-12_797508/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-21-12_797508/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-21-12_797508/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-21-12_797508/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-30-15_416092/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-33-59_353531/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/depth/Session 2019-08-10 11-34-52_036701/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-05-31 20-24-23_695603/tellocap9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-17-37_869063/tellocap9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-29-22_885630/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-29-22_885630/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 20-29-22_885630/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-01-59_036244/tellocap9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-42-30_739589/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-42-30_739589/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-42-30_739589/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-42-30_739589/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-43-49_327590/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-46-54_111490/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-46-54_111490/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-46-54_111490/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-46-54_111490/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-07 21-46-54_111490/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-21-12_797508/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-21-12_797508/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-21-12_797508/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-21-12_797508/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-21-12_797508/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-30-15_416092/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-33-59_353531/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/frames/Session 2019-08-10 11-34-52_036701/tellocap7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/frame_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-05-31 20-24-23_695603/pred_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/frame_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-17-37_869063/pred_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-29-22_885630/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-29-22_885630/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-29-22_885630/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-29-22_885630/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 20-29-22_885630/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/frame_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-01-59_036244/pred_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-42-30_739589/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-43-49_327590/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-07 21-46-54_111490/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-21-12_797508/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-30-15_416092/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-33-59_353531/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/frame_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_0.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/Sessions/pred/Session 2019-08-10 11-34-52_036701/pred_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/TelloTV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/TelloTV2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_eye.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_frontalcatface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_frontalcatface_extended.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_frontalface_alt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_frontalface_alt2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_frontalface_default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_fullbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_lefteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_lowerbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_profileface.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_righteye_2splits.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_russian_plate_number.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_smile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/data/haarcascade_upperbody.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/third-party/Nose18x15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/third-party/frontalEyes35x16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/cascades/third-party/frontalEyes35x16XML.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/djitellopy/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/djitellopy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/djitellopy/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/djitellopy/tello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/NDArray.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/avrodefs/avrodefs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/avrodefs/frames_key.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/avrodefs/frames_value.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/ndarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/webcam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/frameproducers/webcam2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/models.tag.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/modelsegaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/modelsegab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/modelsegac" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/modelsegad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/modelsegae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/predictf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/tokafka.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Navigation/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="eb3baa0c-0d43-40d9-84e4-1e77b5a6f83d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,26 +20,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="md" value="5" />
+          <entry key="md" value="7" />
           <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="5" />
+          <entry key="Markdown" value="7" />
           <entry key="Python" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="70" />
-          <entry key="md" value="33" />
+          <entry key="md" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="33" />
+          <entry key="Markdown" value="80" />
           <entry key="PLAIN_TEXT" value="70" />
         </counts>
       </usages-collector>
@@ -462,11 +59,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="715">
               <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Navigation/HOWToModel.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -502,6 +111,7 @@
         <option value="$PROJECT_DIR$/TelloTV/README.md" />
         <option value="$PROJECT_DIR$/TelloTV/TelloTV.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Navigation/HOWToModel.md" />
       </list>
     </option>
   </component>
@@ -672,5 +282,30 @@
     <entry file="file://$PROJECT_DIR$/TelloTV/tokafka.py" />
     <entry file="file://$PROJECT_DIR$/TelloTV/README.md" />
     <entry file="file://$PROJECT_DIR$/TelloTV/TelloTV.py" />
+    <entry file="file://$PROJECT_DIR$/Navigation/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="116" column="12" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation/HOWToModel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
