@@ -47,7 +47,7 @@ class Detect:
                 
                 idxs = cv2.dnn.NMSBoxes(boxes, confidences, defaultConfidence, defaultTreshold)
             
-                self.Yolo.printPrediction(idxs)
+                self.Yolo.printPrediction(idxs, labels, colors, boxes, classIDs, confidences, frame)
                 
                 if writer is None:
                     filename = '{}.avi'.format(int(time.time()))

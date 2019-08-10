@@ -24,7 +24,7 @@ class YOLO(object):
         colors = np.random.randint(0, 255, size=(len(labels), 3), dtype="uint8")
         
         print("[INFO] loading YOLO from disk...")
-        net = cv2.dnn.readNetFromDarknet(self.configPath, self.weightsPath)
+        net = cv2.dnn.readNetFromDarknet(self.configPath, self.weigthsPath)
         
         layerNames = net.getLayerNames()
         layerNames = [layerNames[i[0] - 1] for i in net.getUnconnectedOutLayers()]
@@ -32,7 +32,7 @@ class YOLO(object):
         return net, labels, colors, layerNames
 
     
-    def getObjectsPreds (layerOutputs):
+    def getObjectsPreds (self, layerOutputs, defaultConfidence = 0.5):
         boxes = []
         confidences = []
         classIDs = []
@@ -63,7 +63,7 @@ class YOLO(object):
         return boxes, confidences, classIDs
 
     
-    def printPrediction(idxs):
+    def printPrediction(self, idxs, labels, colors, boxes, classIDs, confidences, frame):
         # ensure at least one detection exists
         if len(idxs) > 0:
             # loop over the indexes we are keeping
