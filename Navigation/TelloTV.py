@@ -334,6 +334,8 @@ class FrontEnd(object):
                 # Target size
                 tSize = faceSizes[tDistance]
 
+                print("tSize:", tSize)
+
                 # These are our center dimensions
                 cWidth = int(dimensions[0]/2)
                 cHeight = int(dimensions[1]/2)
@@ -372,6 +374,7 @@ class FrontEnd(object):
                         vTarget = np.array((targ_cord_x,targ_cord_y,end_size))
                         vDistance = vTrue-vTarget
 
+                        print("vTrue, vTarget, vDistance:", vTrue, vTarget, vDistance)
                         #
                         if not args.debug:
                             # for turning
@@ -403,6 +406,12 @@ class FrontEnd(object):
                                 self.for_back_velocity = -S - F
                             else:
                                 self.for_back_velocity = 0
+
+                            print("back:", self.for_back_velocity)
+
+                            self.for_back_velocity = abs(self.for_back_velocity)
+
+                            print("back2:", self.for_back_velocity)
 
                         # Draw the face bounding box
                         cv2.rectangle(frameRet, (x, y), (end_cord_x, end_cord_y), fbCol, fbStroke)
