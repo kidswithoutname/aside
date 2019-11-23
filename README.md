@@ -24,19 +24,18 @@ ASIDE Project
 ## Check topic
  - kafka-topics --list --zookeeper localhost:2181
 
-
-
-python TelloTV.py -sx 0 -sy 0 -os 1 -d 5
+ 
 
 ## Not working
-python TelloTV.py -sx 0 -sy 0 -os 1 -d 5 -ss
-python TelloTV.py -sx 0 -sy 0 -os 1 -d 1 -ss
-python TelloTV.py -sx 350 -sy 350 -os 1 -d 3 -ss
-python TelloTV.py -sx 0 -sy 350 -os 1 -d 3 -ss
-python TelloTV.py -sx 50 -sy 50 -os 1 -d 3 -ss
+ - python TelloTV.py -sx 0 -sy 0 -os 1 -d 5 -ss
+ - python TelloTV.py -sx 0 -sy 0 -os 1 -d 1 -ss
+ - python TelloTV.py -sx 350 -sy 350 -os 1 -d 3 -ss
+ - python TelloTV.py -sx 0 -sy 350 -os 1 -d 3 -ss
+ - python TelloTV.py -sx 50 -sy 50 -os 1 -d 3 -ss
 
 ## Works
-python TelloTV.py -sx 50 -sy 50 -os 1 -d 0 -ss
-python TelloTV.py -sx 350 -sy 350 -os 1 -d 0 -ss
+ - python TelloTV.py -sx 50 -sy 50 -os 1 -d 0 -ss
+ - python TelloTV.py -sx 350 -sy 350 -os 1 -d 0 -ss
+ - python TelloTV.py -sx 0 -sy 0 -os 1 -d 5 -ss
 
 

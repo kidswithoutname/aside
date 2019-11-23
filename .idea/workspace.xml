@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3baa0c-0d43-40d9-84e4-1e77b5a6f83d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DJITelloPy/aside/avrodefs/frames_key.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DJITelloPy/aside/avrodefs/frames_value.avsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DJITelloPy/capture_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DJITelloPy/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/DJITelloPy/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DJITelloPy/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DJITelloPy/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation/TelloTV.py" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation/TelloTV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/kafkaconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafkaconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +28,7 @@
           <entry key="json" value="4" />
           <entry key="log" value="1" />
           <entry key="md" value="9" />
-          <entry key="py" value="29" />
+          <entry key="py" value="30" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -45,21 +37,21 @@
           <entry key="JSON" value="4" />
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="29" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="101" />
           <entry key="json" value="3" />
-          <entry key="md" value="255" />
+          <entry key="md" value="264" />
           <entry key="py" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="3" />
-          <entry key="Markdown" value="255" />
+          <entry key="Markdown" value="264" />
           <entry key="PLAIN_TEXT" value="101" />
           <entry key="Python" value="127" />
         </counts>
@@ -80,11 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Navigation/TelloTV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="446" column="49" selection-start-line="446" selection-start-column="49" selection-end-line="446" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -119,23 +108,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="585">
-                <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+              <first_editor relative-caret-position="570">
+                <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -189,9 +178,9 @@
         <option value="$PROJECT_DIR$/Navigation/HOWToModel.md" />
         <option value="$PROJECT_DIR$/kafka/kafkaconfig.json" />
         <option value="$PROJECT_DIR$/Navigation/Navigator.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Navigation/TelloTV.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -242,18 +231,7 @@
             <path>
               <item name="aside" type="b2602c69:ProjectViewProjectNode" />
               <item name="aside" type="462c0819:PsiDirectoryNode" />
-              <item name="DJITelloPy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aside" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aside" type="462c0819:PsiDirectoryNode" />
-              <item name="DJITelloPy" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aside" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aside" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectDetection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,26 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/TelloTV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="446" column="49" selection-start-line="446" selection-start-column="49" selection-end-line="446" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="585">
-            <caret line="39" column="48" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kafka/kafkaconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -506,7 +464,27 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DJITelloPy/djitellopy/tello.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Navigation/TelloTV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="570">
+            <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
