@@ -1,7 +1,12 @@
 {
-    "broker": "3.121.234.49:9092",
-    "schemaRegistryUrl": "http://3.121.234.49:8081",
+    "brookers": "35.159.16.89:9092",
+    "scheme_registry": "http://35.159.16.89:8081",
     "topic": "videocap10",
-    "camvalue": 0,
-    "groupId": "groupid"
+    "camvalue": "0",
+    "group_id": "groupid",
+    "params" : {
+        "message.max.bytes": 3000000
+    },
+    "avsc_dir" : "frameproducers/avrodefs",
+    "root_dir" : "/Users/a.calderon.machuca/OneD/devel/100_Days_of_DL_Code/code/sandbox/DJITelloPy"
 }

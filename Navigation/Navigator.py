@@ -14,8 +14,8 @@ from tokafka import send_to_kafka
 
 config = '''
 {
-    "brookers": "3.123.33.212:9092",
-    "scheme_registry": "http://3.123.33.212:8081",
+    "brookers": "35.159.16.89:9092",
+    "scheme_registry": "http://35.159.16.89:8081",
     "topic": "videocap10",
     "camvalue": "0",
     "group_id": "groupid",
@@ -23,7 +23,7 @@ config = '''
         "message.max.bytes": 3000000
     },
     "avsc_dir" : "frameproducers/avrodefs",
-    "root_dir" : "/Users/a.calderon.machuca/OneD/devel/aside/DJITelloPy"
+    "root_dir" : "/Users/a.calderon.machuca/OneD/devel/100_Days_of_DL_Code/code/sandbox/DJITelloPy"
 }
 '''
 
@@ -334,6 +334,8 @@ class FrontEnd(object):
                 # Target size
                 tSize = faceSizes[tDistance]
 
+                print("tSize:", tSize)
+
                 # These are our center dimensions
                 cWidth = int(dimensions[0]/2)
                 cHeight = int(dimensions[1]/2)
@@ -372,6 +374,7 @@ class FrontEnd(object):
                         vTarget = np.array((targ_cord_x,targ_cord_y,end_size))
                         vDistance = vTrue-vTarget
 
+                        print("vTrue, vTarget, vDistance:", vTrue, vTarget, vDistance)
                         #
                         if not args.debug:
                             # for turning
@@ -403,6 +406,12 @@ class FrontEnd(object):
                                 self.for_back_velocity = -S - F
                             else:
                                 self.for_back_velocity = 0
+
+                            print("back:", self.for_back_velocity)
+
+                            self.for_back_velocity = abs(self.for_back_velocity)
+
+                            print("back2:", self.for_back_velocity)
 
                         # Draw the face bounding box
                         cv2.rectangle(frameRet, (x, y), (end_cord_x, end_cord_y), fbCol, fbStroke)
@@ -444,7 +453,6 @@ class FrontEnd(object):
                 if use_kafka:
                     print("-----5-----")
                     send_to_kafka(config, frameRet)
-                    # send_to_kafka(config, gray)
 
                 # Display the resulting frame
                 cv2.imshow(f'Tello Tracking...',frameRet)
