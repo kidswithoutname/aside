@@ -1,0 +1,11 @@
+{
+   "namespace": "frames.avro",
+   "name": "FramesV8",
+   "type": "record",
+   "fields" : [
+     {"name" : "frame", "type" : "bytes"},
+     {"name" : "shape", "type" : {"type" : "array", "items" : "int"}},
+     {"name" : "timestamp", "type" : "string"},
+     {"name" : "camid", "type" : "string"}
+   ]
+}

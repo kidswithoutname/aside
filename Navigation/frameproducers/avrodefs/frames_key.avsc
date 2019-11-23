@@ -1,0 +1,8 @@
+{
+   "namespace": "keys.avro",
+   "name": "KeysV8",
+   "type": "record",
+   "fields" : [
+     {"name" : "key", "type" : "string"}
+   ]
+}
