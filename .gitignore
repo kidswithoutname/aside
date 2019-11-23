@@ -110,9 +110,13 @@ venv.bak/
 # kafkaconfig.json
 
 # IDE
+.idea/*
 .idea/
 
 # Model
 Navigation/models/
 models.tar.gz
+
+# Session
+Navigation/Sessions/
 
