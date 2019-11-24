@@ -1,12 +1,48 @@
 # aside
 ASIDE Project
 
-- cat modelsega* >models.tar.gz
-- tar -zxvf models.tar.gz
+## Install project
+ - pipenv shell
+ - pip install opencv-python
+ - pip install install opencv-contrib-python
+ - pip install tensorflow==1.13.1
+ - pip install matplotlib
+ - pip install Pillow
+ - pip install confluent_kafka
+ - pip install confluent-kafka[avro]
+ - cat modelsega* >models.tar.gz
+ - tar -zxvf models.tar.gz
+
+## Some errors ans dolutions
+__No module named 'cv2'__
+ - pip install opencv-python
+ 
+__AttributeError: module 'cv2.cv2' has no attribute 'face'__
+ - pip install install opencv-contrib-python
+ 
+__No module named 'tensorflow'__
+ - pip install tensorflow==1.13.1
+ 
+__No module named 'matplotlib'__
+ - pip install matplotlib
+ 
+__No module named 'PIL'__
+ - pip install Pillow
+ 
+__No module named 'confluent_kafka'__
+ - pip install confluent_kafka
+ 
+__No module named 'avro'__
+ - pip install confluent-kafka[avro]
+
+__Module 'tensorflow' has no attribute 'placeholder'__
+ - pip uninstall tensorflow
+ - pip install tensorflow==1.13.1
+ 
 
 ## Edit with current Public DNS (IPv4)
 
- sudo vi /etc/kafka/server.properties
+ - sudo vi /etc/kafka/server.properties
   
 ## Start Confluent services  
  - sudo systemctl start confluent-zookeeper
