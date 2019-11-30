@@ -20,7 +20,7 @@ def read_config(config):
 
 
 def send_to_kafka(config, frame):
-    config = read_config(config)
+    # config = read_config(config)
     config['root_dir'] = os.path.dirname(os.path.abspath(__file__))
     avroProducer = get_avro_producer(config)
     print("-----1-----")

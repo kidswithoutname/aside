@@ -93,6 +93,6 @@ __Module 'tensorflow' has no attribute 'placeholder'__
  - python Navigator.py -sx 0 -sy 0 -os 1 -d 5 -ss
  
  ## Works kinda perfect
- python Navigator.py -sx 350 -sy 350 -os 1 -d 0 -ss
+ python Navigator.py -sx 350 -sy 200 -os 1 -d 0 -os 3 -ss
 
 
