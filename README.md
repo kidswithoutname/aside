@@ -10,15 +10,22 @@ ASIDE Project
  - pip install Pillow
  - pip install confluent_kafka
  - pip install confluent-kafka[avro]
+ 
+## To generate the model directory
  - cat modelsega* >models.tar.gz
- - tar -zxvf models.tar.gz
+ - tar -zxvf models.tar.
+
+ 
+OR pip install -r requirements.txt
+
 
 ## Some errors ans dolutions
 __No module named 'cv2'__
  - pip install opencv-python
  
 __AttributeError: module 'cv2.cv2' has no attribute 'face'__
- - pip install install opencv-contrib-python
+ - pip install opencv-contrib-python
+  - Check version: 4.1.2.30
  
 __No module named 'tensorflow'__
  - pip install tensorflow==1.13.1
@@ -69,9 +76,15 @@ __Module 'tensorflow' has no attribute 'placeholder'__
  - python TelloTV.py -sx 0 -sy 350 -os 1 -d 3 -ss
  - python TelloTV.py -sx 50 -sy 50 -os 1 -d 3 -ss
 
-## Works
+## Works mmm
  - python TelloTV.py -sx 50 -sy 50 -os 1 -d 0 -ss
- - python TelloTV.py -sx 350 -sy 350 -os 1 -d 0 -ss
- - python TelloTV.py -sx 0 -sy 0 -os 1 -d 5 -ss
+ - python Navigator.py -sx 350 -sy 350 -os 1 -d 0 -ss
+ - python Navigator.py -sx 0 -sy 0 -os 1 -d 5 -ss
+ 
+ ## Atras
+ - python Navigator.py -sx 0 -sy 0 -os 1 -d 5 -ss
+ 
+ ## Works kinda perfect
+ python Navigator.py -sx 350 -sy 350 -os 1 -d 0 -ss
 
 

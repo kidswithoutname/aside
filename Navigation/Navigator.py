@@ -12,10 +12,12 @@ from predictf import predict_frame, contruct_net, clear_directory
 from utils import do_depth_prediction
 from tokafka import send_to_kafka
 
+
+
 config = '''
 {
-    "brookers": "35.159.16.89:9092",
-    "scheme_registry": "http://35.159.16.89:8081",
+    "brookers": "3.123.33.212:9092",
+    "scheme_registry": "http://3.123.33.212:8081",
     "topic": "videocap10",
     "camvalue": "0",
     "group_id": "groupid",
@@ -23,28 +25,32 @@ config = '''
         "message.max.bytes": 3000000
     },
     "avsc_dir" : "frameproducers/avrodefs",
-    "root_dir" : "/Users/a.calderon.machuca/OneD/devel/100_Days_of_DL_Code/code/sandbox/DJITelloPy"
+    "root_dir" : "/Users/a.calderon.machuca/OneD/devel/aside/DJITelloPy"
 }
 '''
 
-use_kafka = True
+# config['root_dir2'] = os.path.dirname(os.path.abspath(__file__))
+
+# print(config)
+# exit(0)
+use_kafka = False
 
 # standard argparse stuff
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter, add_help=False)
 parser.add_argument('-h', '--help', action='help', default=argparse.SUPPRESS,
                     help='** = required')
 parser.add_argument('-d', '--distance', type=int, default=3,
-    help='use -d to change the distance of the drone. Range 0-6')
+                    help='use -d to change the distance of the drone. Range 0-6')
 parser.add_argument('-sx', '--saftey_x', type=int, default=100,
-    help='use -sx to change the saftey bound on the x axis . Range 0-480')
+                    help='use -sx to change the saftey bound on the x axis . Range 0-480')
 parser.add_argument('-sy', '--saftey_y', type=int, default=55,
-    help='use -sy to change the saftey bound on the y axis . Range 0-360')
+                    help='use -sy to change the saftey bound on the y axis . Range 0-360')
 parser.add_argument('-os', '--override_speed', type=int, default=1,
-    help='use -os to change override speed. Range 0-3')
+                    help='use -os to change override speed. Range 0-3')
 parser.add_argument('-ss', "--save_session", action='store_true',
-    help='add the -ss flag to save your session as an image sequence in the Sessions folder')
+                    help='add the -ss flag to save your session as an image sequence in the Sessions folder')
 parser.add_argument('-D', "--debug", action='store_true',
-    help='add the -D flag to enable debug mode. Everything works the same, but no commands will be sent to the drone')
+                    help='add the -D flag to enable debug mode. Everything works the same, but no commands will be sent to the drone')
 
 args = parser.parse_args()
 
@@ -58,7 +64,7 @@ faceSizes = [1026, 684, 456, 304, 202, 136, 90]
 
 # These are the values in which kicks in speed up mode, as of now, this hasn't been finalized or fine tuned so be careful
 # Tested are 3, 4, 5
-acc = [500,250,250,150,110,70,50]
+acc = [500, 250, 250, 150, 110, 70, 50]
 
 # Frames per second of the pygame window display
 FPS = 25
@@ -69,9 +75,7 @@ dimensions = (960, 720)
 # Cleate directory
 # clear_directory(output_dir)
 #  ------------------------------- END Set Parameters ADDED ---------------------------------------------------- #
-
-
-# 
+#
 face_cascade = cv2.CascadeClassifier('cascades/data/haarcascade_frontalface_alt2.xml')
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
@@ -99,7 +103,7 @@ if args.save_session:
 
     # For frames
     stamp = str(datetime.datetime.now())
-    ddir = "Sessions/frames/Session {}".format(stamp).replace(':','-').replace('.','_')
+    ddir = "Sessions/frames/Session {}".format(stamp).replace(':', '-').replace('.', '_')
     os.mkdir(ddir)
 
     # For depth
@@ -111,7 +115,7 @@ if args.save_session:
     os.mkdir(ddirp)
 
 class FrontEnd(object):
-    
+
     def __init__(self):
         # Init Tello object that interacts with the Tello drone
         self.tello = Tello()
@@ -152,13 +156,13 @@ class FrontEnd(object):
         oSpeed = args.override_speed
         tDistance = args.distance
         self.tello.get_battery()
-        
+
         # Safety Zone X
         szX = args.saftey_x
 
         # Safety Zone Y
         szY = args.saftey_y
-        
+
         if args.debug:
             print("DEBUG MODE ENABLED!")
 
@@ -172,7 +176,6 @@ class FrontEnd(object):
             saver = tf.train.Saver()
             saver.restore(sess, 'models/NYU_FCRN.ckpt')
 
-
             while not should_stop:
                 self.update()
 
@@ -180,7 +183,7 @@ class FrontEnd(object):
                     frame_read.stop()
                     break
 
-                theTime = str(datetime.datetime.now()).replace(':','-').replace('.','_')
+                theTime = str(datetime.datetime.now()).replace(':', '-').replace('.', '_')
 
                 frame = cv2.cvtColor(frame_read.frame, cv2.COLOR_BGR2RGB)
                 frameRet = frame_read.frame
@@ -188,10 +191,9 @@ class FrontEnd(object):
                 vid = self.tello.get_video_capture()
 
                 if args.save_session:
-                    cv2.imwrite("{}/tellocap{}.jpg".format(ddir,imgCount),frameRet)
+                    cv2.imwrite("{}/tellocap{}.jpg".format(ddir, imgCount), frameRet)
 
                 frame = np.rot90(frame)
-
 
                 time.sleep(1 / FPS)
 
@@ -308,12 +310,13 @@ class FrontEnd(object):
                     should_stop = True
                     break
 
-                gray  = cv2.cvtColor(frameRet, cv2.COLOR_BGR2GRAY)
+                gray = cv2.cvtColor(frameRet, cv2.COLOR_BGR2GRAY)
                 # faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=2)
 
                 #  ------------------------------- BEGIN Depth Prediction ADDED ------------------------------------------ #
                 print("-----6-----")
-                faces, res_center = do_depth_prediction(frameRet, imgCount, input_node, net, ddird, args.save_session, ddirp, sess)
+                faces, res_center = do_depth_prediction(frameRet, imgCount, input_node, net, ddird, args.save_session,
+                                                        ddirp, sess)
                 faces_ar = []
                 faces_ar.append(faces)
                 cv2.circle(frameRet, (int(res_center[0]), int(res_center[1])), 10, (0, 255, 0), 2)
@@ -326,7 +329,6 @@ class FrontEnd(object):
                 # faces = x_face, y_face, w_face, h_face
                 #  ------------------------------- END Depth Prediction ADDED ------------------------------------------- #
 
-
                 print("---------------- Faces {} ---------------- ".format(imgCount))
                 print("Faces:", faces_ar)
                 imgCount += 1
@@ -334,11 +336,9 @@ class FrontEnd(object):
                 # Target size
                 tSize = faceSizes[tDistance]
 
-                print("tSize:", tSize)
-
                 # These are our center dimensions
-                cWidth = int(dimensions[0]/2)
-                cHeight = int(dimensions[1]/2)
+                cWidth = int(dimensions[0] / 2)
+                cHeight = int(dimensions[1] / 2)
 
                 noFaces = len(faces_ar) == 0
 
@@ -353,28 +353,27 @@ class FrontEnd(object):
                         print("---------------- X Y W H on Faces -----------")
 
                         #
-                        roi_gray = gray[y:y+h, x:x+w] #(ycord_start, ycord_end)
-                        roi_color = frameRet[y:y+h, x:x+w]
+                        roi_gray = gray[y:y + h, x:x + w]  # (ycord_start, ycord_end)
+                        roi_color = frameRet[y:y + h, x:x + w]
 
                         # setting Face Box properties
-                        fbCol = (255, 0, 0) #BGR 0-255
+                        fbCol = (255, 0, 0)  # BGR 0-255
                         fbStroke = 2
 
                         # end coords are the end of the bounding box x & y
                         end_cord_x = x + w
                         end_cord_y = y + h
-                        end_size = w*2
+                        end_size = w * 2
 
                         # these are our target coordinates
-                        targ_cord_x = int((end_cord_x + x)/2)
-                        targ_cord_y = int((end_cord_y + y)/2) + UDOffset
+                        targ_cord_x = int((end_cord_x + x) / 2)
+                        targ_cord_y = int((end_cord_y + y) / 2) + UDOffset
 
                         # This calculates the vector from your face to the center of the screen
-                        vTrue = np.array((cWidth,cHeight,tSize))
-                        vTarget = np.array((targ_cord_x,targ_cord_y,end_size))
-                        vDistance = vTrue-vTarget
+                        vTrue = np.array((cWidth, cHeight, tSize))
+                        vTarget = np.array((targ_cord_x, targ_cord_y, end_size))
+                        vDistance = vTrue - vTarget
 
-                        print("vTrue, vTarget, vDistance:", vTrue, vTarget, vDistance)
                         #
                         if not args.debug:
                             # for turning
@@ -407,23 +406,24 @@ class FrontEnd(object):
                             else:
                                 self.for_back_velocity = 0
 
-                            print("back:", self.for_back_velocity)
-
-                            self.for_back_velocity = abs(self.for_back_velocity)
-
-                            print("back2:", self.for_back_velocity)
+                        # print("back:", self.for_back_velocity)
+                        #
+                        # self.for_back_velocity = abs(self.for_back_velocity)
+                        #
+                        # print("back2:", self.for_back_velocity)
 
                         # Draw the face bounding box
                         cv2.rectangle(frameRet, (x, y), (end_cord_x, end_cord_y), fbCol, fbStroke)
 
                         # Draw the target as a circle
-                        cv2.circle(frameRet, (targ_cord_x, targ_cord_y), 10, (0,255,0), 2)
+                        cv2.circle(frameRet, (targ_cord_x, targ_cord_y), 10, (0, 255, 0), 2)
 
                         # Draw the safety zone
-                        cv2.rectangle(frameRet, (targ_cord_x - szX, targ_cord_y - szY), (targ_cord_x + szX, targ_cord_y + szY), (0,255,0), fbStroke)
+                        cv2.rectangle(frameRet, (targ_cord_x - szX, targ_cord_y - szY),
+                                      (targ_cord_x + szX, targ_cord_y + szY), (0, 255, 0), fbStroke)
 
                         # Draw the estimated drone vector position in relation to face bounding box
-                        cv2.putText(frameRet,str(vDistance),(0,64),cv2.FONT_HERSHEY_SIMPLEX,1,(255,255,255),2)
+                        cv2.putText(frameRet, str(vDistance), (0, 64), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
                         print("---------------- After Text -----------")
 
@@ -435,37 +435,37 @@ class FrontEnd(object):
                         print("NO TARGET")
 
                 # Draw the center of screen circle, this is what the drone tries to match with the target coords
-                cv2.circle(frameRet, (cWidth, cHeight), 10, (0,0,255), 2)
+                cv2.circle(frameRet, (cWidth, cHeight), 10, (0, 0, 255), 2)
 
-                dCol = lerp(np.array((0,0,255)),np.array((255,255,255)),tDistance+1/7)
+                dCol = lerp(np.array((0, 0, 255)), np.array((255, 255, 255)), tDistance + 1 / 7)
 
                 if OVERRIDE:
                     show = "OVERRIDE: {}".format(oSpeed)
-                    dCol = (255,255,255)
+                    dCol = (255, 255, 255)
                 else:
                     show = "AI: {}".format(str(tDistance))
 
                 # Draw the distance choosen
-                cv2.putText(frameRet,show,(32,664),cv2.FONT_HERSHEY_SIMPLEX,1,dCol,2)
+                cv2.putText(frameRet, show, (32, 664), cv2.FONT_HERSHEY_SIMPLEX, 1, dCol, 2)
 
                 print("---------------- After Distance Choosen -----------")
 
                 if use_kafka:
                     print("-----5-----")
                     send_to_kafka(config, frameRet)
+                    # send_to_kafka(config, gray)
 
                 # Display the resulting frame
-                cv2.imshow(f'Tello Tracking...',frameRet)
+                cv2.imshow(f'Tello Tracking...', frameRet)
 
         # On exit, print the battery
         self.tello.get_battery()
 
         # When everything done, release the capture
         cv2.destroyAllWindows()
-        
+
         # Call it always before finishing. I deallocate resources.
         self.tello.end()
-
 
     def battery(self):
         return self.tello.get_battery()[:2]
@@ -477,11 +477,8 @@ class FrontEnd(object):
                                        self.yaw_velocity)
 
 
-def lerp(a,b,c):
-    return a + c*(b-a)
-
-
-
+def lerp(a, b, c):
+    return a + c * (b - a)
 
 
 def main():
