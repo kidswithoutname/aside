@@ -2,155 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb3baa0c-0d43-40d9-84e4-1e77b5a6f83d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Navigation/HOWToModel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Navigation/TelloTV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Navigation/TelloTV2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ObjectDetection/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frameConsumer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation/HOWToModel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation/Navigator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation/Navigator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation/TelloTV.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navigation/TelloTV2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Navigation/frameproducers/ndarray.py" beforeDir="false" afterPath="$PROJECT_DIR$/Navigation/frameproducers/ndarray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDetection/Detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDetection/Detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObjectDetection/Yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ObjectDetection/Yolo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/frameConsumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/frameConsumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/kafkaconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/kafkaconfig.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="863566771">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="4" />
-          <entry key="json" value="4" />
-          <entry key="log" value="1" />
-          <entry key="md" value="13" />
-          <entry key="py" value="38" />
-          <entry key="txt" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="4" />
-          <entry key="Markdown" value="13" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="38" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="101" />
-          <entry key="json" value="3" />
-          <entry key="md" value="499" />
-          <entry key="py" value="186" />
-          <entry key="txt" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JSON" value="3" />
-          <entry key="Markdown" value="499" />
-          <entry key="PLAIN_TEXT" value="115" />
-          <entry key="Python" value="186" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Navigation/predictf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="127" column="25" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Navigation/frameproducers/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="215">
-                <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Navigation/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="-554" />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Navigation/tokafka.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Navigation/Navigator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -192,30 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/djitellopy/tello.py" />
-        <option value="$PROJECT_DIR$/djitellopy/README.md" />
-        <option value="$PROJECT_DIR$/TelloTV/TelloTV2.py" />
-        <option value="$PROJECT_DIR$/TelloTV/README.md" />
-        <option value="$PROJECT_DIR$/TelloTV/TelloTV.py" />
-        <option value="$PROJECT_DIR$/kafka/kafkaconfig.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/Navigation/HOWToModel.md" />
-        <option value="$PROJECT_DIR$/Navigation/TelloTV.py" />
-        <option value="$PROJECT_DIR$/Navigation/Navigator.py" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="1224" />
-    <option name="height" value="877" />
-  </component>
+  <component name="ProjectId" id="1UKyV4xuKziOsWS2zINbOINwC7m" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -242,31 +90,8 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="aside" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aside" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aside" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aside" type="462c0819:PsiDirectoryNode" />
-              <item name="Navigation" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -305,192 +130,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565198690919</updated>
+      <workItem from="1575119611320" duration="236000" />
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1224" height="877" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19368246" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/README.md" />
-    <entry file="file://$PROJECT_DIR$/djitellopy/tello.py" />
-    <entry file="file://$PROJECT_DIR$/ObjectDetection/Yolo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TelloTV/djitellopy/README.md" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/frameproducers/avrodefs/avrodefs.py" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/utils.py" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/TelloTV2.py" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/djitellopy/tello.py" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/frameproducers/utils.py" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/tokafka.py" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/README.md" />
-    <entry file="file://$PROJECT_DIR$/TelloTV/TelloTV.py" />
-    <entry file="file://$PROJECT_DIR$/ObjectDetection/Detect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/frameConsumer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/djitellopy/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/TelloTV2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4665">
-          <caret line="317" column="41" selection-start-line="316" selection-start-column="35" selection-end-line="317" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka/kafkaconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/1.txt" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/2.txt" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/19.txt" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/setup.py" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/tokafka.py" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/operations.log" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/frameproducers/webcam.py" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/LICENSE.txt" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/config/config.local.json" />
-    <entry file="file://$PROJECT_DIR$/DJITelloPy/djitellopy/tello.py" />
-    <entry file="file://$PROJECT_DIR$/Navigation/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/HOWToModel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="45">
-            <caret line="3" column="23" lean-forward="true" selection-end-line="3" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/frameproducers/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/predictf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="127" column="25" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/tokafka.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/TelloTV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="72" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-554" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Navigation/Navigator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="215">
-            <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Navigation/frameproducers/ndarray.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

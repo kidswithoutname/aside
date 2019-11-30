@@ -49,6 +49,7 @@ try:
     import avro.schema
     import avro.io
     import robertslab.avro
+
     # regex = re.compile("^(.+robertslab-avro-python.zip)/robertslab/avro/__init__.py$")
     m = regex.search(robertslab.avro.__file__)
     if m != None:
