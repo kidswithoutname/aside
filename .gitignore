@@ -113,7 +113,8 @@ venv.bak/
 # kafkaconfig.json
 
 # IDE
-.idea/*
+.idea/
+.vscode/
 
 # Model
 Navigation/models/
