@@ -1,0 +1,13 @@
+{
+    "brookers": "<Public IP>:9092",
+    "scheme_registry": "http://<Public IP>:8081",
+    "topic": "<Topic Name>",
+    "camvalue": "0",
+    "group_id": "groupid",
+    "params" : {
+        "message.max.bytes": 3000000
+    },
+    "avsc_dir" : "frameproducers/avrodefs",
+    "root_dir" : "</path/to/>DJITelloPy",
+    "use_kafka": true
+}

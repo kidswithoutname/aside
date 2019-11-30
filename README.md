@@ -46,17 +46,25 @@ __Module 'tensorflow' has no attribute 'placeholder'__
  - pip uninstall tensorflow
  - pip install tensorflow==1.13.1
  
+ 
+## Enter into aws machine
+ - ssh -i ~/.ssh/keys/acl-fullAdmin.pem centos@<public-ip>
 
+ 
 ## Edit with current Public DNS (IPv4)
 
  - sudo vi /etc/kafka/server.properties
+ ```text
+ advertised.listeners=PLAINTEXT://<public-dns>:9092
+ ```
+
   
 ## Start Confluent services  
  - sudo systemctl start confluent-zookeeper
  - sudo systemctl start confluent-kafka
  - sudo systemctl start confluent-schema-registry
- - sudo systemctl start confluent-kafka-rest
- - sudo systemctl start confluent-ksql
+  - sudo systemctl start confluent-kafka-rest
+  - sudo systemctl start confluent-ksql
  
  - systemctl status confluent*
  - systemctl status confluent-*

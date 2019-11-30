@@ -5,6 +5,7 @@ import time
 import datetime
 import os
 import argparse
+import json
 import tensorflow as tf
 
 from predictf import predict_frame, contruct_net, clear_directory
@@ -12,28 +13,9 @@ from predictf import predict_frame, contruct_net, clear_directory
 from utils import do_depth_prediction
 from tokafka import send_to_kafka
 
+config = json.load(open('configs/config.local.json', 'r'))
 
-
-config = '''
-{
-    "brookers": "3.123.33.212:9092",
-    "scheme_registry": "http://3.123.33.212:8081",
-    "topic": "videocap10",
-    "camvalue": "0",
-    "group_id": "groupid",
-    "params" : {
-        "message.max.bytes": 3000000
-    },
-    "avsc_dir" : "frameproducers/avrodefs",
-    "root_dir" : "/Users/a.calderon.machuca/OneD/devel/aside/DJITelloPy"
-}
-'''
-
-# config['root_dir2'] = os.path.dirname(os.path.abspath(__file__))
-
-# print(config)
-# exit(0)
-use_kafka = False
+use_kafka = config['use_kafka']
 
 # standard argparse stuff
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter, add_help=False)

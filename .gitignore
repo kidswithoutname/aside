@@ -120,3 +120,6 @@ models.tar.gz
 # Session
 Navigation/Sessions/
 
+# Configs
+*.local.json
+
